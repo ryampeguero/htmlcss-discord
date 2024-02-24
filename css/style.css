@@ -146,6 +146,15 @@ ul {
     /* border: 1px solid black; */
 }
 
+.discord-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.discord-text {
+    font-size: 20px;
+}
+
 .main-content h1 {
     font-size: 3rem;
     margin-bottom: 20px;
@@ -189,22 +198,30 @@ ul {
 .b-column {
     width: 60%;
     height: 500px;
-    background-color: #2090FE;
+    
     /* debug */
+    background-color: #2090FE;
     border: 1px dashed black;
 }
 
 .s-column {
     width: 40%;
     height: 500px;
-    background-color: #FEC0CB;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
     /* debug */
+    background-color: #FEC0CB;
     border: 1px dashed black;
 }
 
 .secondary {
     background-color: #D3D3D3;
 }
+
 footer {
     background-color: #23272A;
 }
