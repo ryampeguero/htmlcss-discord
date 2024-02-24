@@ -33,6 +33,10 @@ ul {
     background-color: #E5E5E5;
 }
 
+.al-center {
+    text-align: center;
+}
+
 /* HEADER */
 .header {
     background-color: #255EE9;
@@ -194,6 +198,15 @@ ul {
     width: 1120px;
 }
 
+.layout-secondary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* debug */
+    border: 2px solid black;
+    width: 1120px;
+}
 
 .b-column {
     width: 60%;
@@ -222,6 +235,23 @@ ul {
     background-color: #D3D3D3;
 }
 
+.shine-star {
+    padding: 35px;
+    background-image: url(../img/stars.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    /* debug */
+    /* background-color: white;
+    border: 1px dashed black; */
+
+}
+
+.shine-star h2 {
+    font-size: 20px;
+}
+
+/* FOOTER */
 footer {
     background-color: #23272A;
 }
