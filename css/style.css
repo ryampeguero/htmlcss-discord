@@ -37,6 +37,19 @@ ul {
     text-align: center;
 }
 
+.light-wave {
+    background-image: url("../img/wave.svg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+} 
+
+.light-wave {
+    opacity: 0.2;
+}
 /* HEADER */
 .header {
     background-color: #255EE9;
@@ -142,7 +155,6 @@ ul {
 
 .main-content {
     color: white;
-    /* margin: 0 auto; */
     margin: 0 50px;
     /* debug */
     text-align: center;
@@ -177,25 +189,19 @@ ul {
     padding: 50px; 
     
     /* debug */
-    border: 3px solid green;
+    /* border: 3px solid green; */
 
-}
-
-.layout .img {
-    background-color: #248B24;
-    height: 885px;
-    width: 100%;
-    
 }
 
 .layout{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    /* debug */
-    border: 2px solid black;
     width: 1120px;
+
+    /* debug */
+    /* border: 2px solid black; */
+    
 }
 
 .layout-secondary {
@@ -204,7 +210,7 @@ ul {
     align-items: center;
     flex-direction: column;
     /* debug */
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 1120px;
 }
 
@@ -212,9 +218,13 @@ ul {
     width: 60%;
     height: 500px;
     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     /* debug */
-    background-color: #2090FE;
-    border: 1px dashed black;
+    /* background-color: #2090FE;
+    border: 1px dashed black; */
 }
 
 .s-column {
@@ -227,8 +237,8 @@ ul {
     justify-content: center;
     
     /* debug */
-    background-color: #FEC0CB;
-    border: 1px dashed black;
+    /* background-color: #FEC0CB;
+    border: 1px dashed black; */
 }
 
 .secondary {
@@ -258,7 +268,7 @@ footer {
 
 footer .layout {
     justify-content: flex-start;
-    background-color: #80FED4;
+    /* background-color: #80FED4; */
 }
 
 footer .b-column {
@@ -267,7 +277,7 @@ footer .b-column {
 
     display: flex;
     flex-direction: column;
-    /* justify-content: center;  */
+    justify-content: flex-start; 
     align-items: center;
    
     
@@ -284,14 +294,25 @@ footer .s-column {
 }
 
 
-footer nav {
+.layout2{
     display: flex;
-    /* justify-content: flex-start; */
-    align-items: center;
-    gap: 1000px;
+    justify-content: space-around;
+    width: 100%;
     /* debug */
-    height: 40px;
-    
+    /* height: 40px; */
+    /* background-color: red; */
+}
+
+.layout2 .nav-logo{
+    flex-grow: 1;
+}
+
+.divider{
+    flex-grow: 2;
+}
+
+.layout2 .login-form{
+    flex-grow: 1;
 }
 
 .footer-list {
@@ -326,10 +347,4 @@ footer nav {
     width: 20px;
 }
 
-.f-logo,
-.f-button {
-    padding: 10px;
-    background-color: #FEC0CB;
-    border: 1px dashed black;
-}
 
