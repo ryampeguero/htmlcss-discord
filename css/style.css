@@ -171,6 +171,14 @@ ul {
     font-size: 20px;
 }
 
+.discord-btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
 .main-content h1 {
     font-size: 3rem;
     margin-bottom: 20px;
